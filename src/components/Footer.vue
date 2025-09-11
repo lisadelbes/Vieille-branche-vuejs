@@ -1,0 +1,53 @@
+<template>
+  <footer class="bg-green-700 text-white py-10 mt-10">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Contact -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">ME CONTACTER</h3>
+        <p class="leading-6">
+          Arthur JUAN<br>
+          27 route de Lévignac<br>
+          31820 Pibrac<br>
+          <a href="tel:0667411228" class="hover:text-gray-200 transition">06 67 41 12 28</a>
+        </p>
+      </div>
+
+      <!-- Réseaux sociaux -->
+      <div class="text-center md:text-left">
+        <h3 class="text-lg font-semibold mb-3">ME SUIVRE</h3>
+        <div class="flex justify-center md:justify-start gap-4">
+          <a href="#" class="hover:scale-110 transition">
+            <img src="/insta.png" alt="Instagram" class="w-8 h-8">
+          </a>
+          <a href="#" class="hover:scale-110 transition">
+            <img src="/facebook.png" alt="Facebook" class="w-8 h-8">
+          </a>
+        </div>
+      </div>
+
+      <!-- Devis -->
+      <div class="text-center md:text-right">
+        <h3 class="text-lg font-semibold mb-3">DEMANDER UN DEVIS</h3>
+        <button 
+          class="bg-gray-200 text-gray-800 px-6 py-2 rounded-lg shadow-md hover:bg-gray-300 hover:scale-105 transition"
+          @click="ouvrirFormulaire"
+        >
+          Formulaire en ligne
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Ligne du bas -->
+    <div class="mt-10 border-t border-green-600 pt-4 text-center text-sm text-gray-100">
+      © {{ new Date().getFullYear() }} Lisa DELBES — Tous droits réservés
+    </div>
+  </footer>
+</template>
+
+<script setup lang="js">
+function ouvrirFormulaire() {
+  window.location.href = "/formulaire-devis"; 
+}
+</script>
