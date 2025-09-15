@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-green-700 text-white py-10 mt-10">
+  <footer class="bg-sapin-pastel text-white shadow-md">
     <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
       
       <!-- Contact -->
@@ -9,7 +9,7 @@
           Arthur JUAN<br>
           27 route de Lévignac<br>
           31820 Pibrac<br>
-          <a href="tel:0667411228" class="hover:text-gray-200 transition">06 67 41 12 28</a>
+          <a href="tel:0667411228" class="hover:text-green-300 transition">06 67 41 12 28</a>
         </p>
       </div>
 
@@ -30,7 +30,7 @@
       <div class="text-center md:text-right">
         <h3 class="text-lg font-semibold mb-3">DEMANDER UN DEVIS</h3>
         <button 
-          class="bg-gray-200 text-gray-800 px-6 py-2 rounded-lg shadow-md hover:bg-gray-300 hover:scale-105 transition"
+          class="bg-green-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-800 hover:scale-105 transition"
           @click="ouvrirFormulaire"
         >
           Formulaire en ligne
@@ -40,14 +40,19 @@
     </div>
 
     <!-- Ligne du bas -->
-    <div class="mt-10 border-t border-green-600 pt-4 text-center text-sm text-gray-100">
+    <div class="mt-10 border-t border-green-700 pt-4 text-center text-sm text-white">
       © {{ new Date().getFullYear() }} Lisa DELBES — Tous droits réservés
     </div>
   </footer>
 </template>
+
 
 <script setup lang="js">
 function ouvrirFormulaire() {
   window.location.href = "/formulaire-devis"; 
 }
 </script>
+
+<style scoped>
+/* Pas de styles spécifiques car DaisyUI est utilisé. */
+</style>

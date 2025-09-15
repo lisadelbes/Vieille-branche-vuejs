@@ -1,19 +1,25 @@
 <template>
-  <header class="bg-green-700 text-white shadow-md">
+  <header class="bg-sapin-pastel text-white shadow-md">
     <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
       
       <!-- Logo -->
       <div class="flex items-center gap-3">
-        <img src="logo.png" alt="Vieille Branche Logo" class="h-12 w-auto">
-        <span class="text-xl font-bold tracking-wide">Vieille Branche</span>
+        <img src="/logo.png" alt="Vieille Branche Logo" class="h-12 w-auto">
+        <span class="text-xl font-bold tracking-wide">Vieille Branche, au service des arbres</span>
       </div>
 
       <!-- Navigation -->
       <nav>
         <ul class="flex gap-6 text-sm font-medium">
-         <li class="rounded-box">
-            <router-link to="/" class="hover:text-primary">Accueil</router-link>>
+          <li>
+            <RouterLink to="/apropos" class="hover:text-green-300">A propos</RouterLink>
           </li>
+          <!-- <li>
+            <RouterLink to="/services" class="hover:text-green-300">Services</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/contact" class="hover:text-green-300">Contact</RouterLink>
+          </li> -->
         </ul>
       </nav>
     </div>
