@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="js">
 import { reactive } from "vue"
 
 // Objet réactif qui stocke les données du formulaire
