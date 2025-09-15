@@ -9,6 +9,12 @@ const router = createRouter({
             alias: '/propos',
             name: 'apropos',
             component: () => import('../views/apropos.vue')
+        },
+          {
+            path: '/formulaire-devis',
+            alias: '/formulaire-devis',
+            name: 'formulaire-devis',
+            component: () => import('../views/formulaire-devis.vue')
         }
     ]
 });

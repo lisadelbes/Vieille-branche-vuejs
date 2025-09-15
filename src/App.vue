@@ -1,11 +1,4 @@
 <template>
-
-    <div class="p-10">
-    <div class="bg-sapin-pastel text-white font-bold p-6 rounded-xl">
-      Test sapin pastel
-    </div>
-  </div>
-  
   <div class="min-h-screen flex flex-col bg-base-200 text-base-content">
     <!-- Navbar en haut de la page -->
     <Header> </Header>

@@ -1,7 +1,8 @@
-/* src/style.css (ou ./style.css) */
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme{
 
-/* DaisyUI est déjà activé via tailwind.config.js (pas besoin de @plugin ici) */
+--color-sapin-pastel:#0F3B2E;
+--color-sapin-bouton:#2E6B55;
+--color-sapin-surbrillance:#A8E6CF;
+}

@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-sapin-pastel text-white shadow-md">
-    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-22 mt-10">
       
       <!-- Contact -->
       <div>
@@ -27,20 +27,19 @@
       </div>
 
       <!-- Devis -->
-      <div class="text-center md:text-right">
-        <h3 class="text-lg font-semibold mb-3">DEMANDER UN DEVIS</h3>
+      <div class="flex flex-col items-center md:items-end text-center md:text-right">
+        <h3 class="text-lg font-semibold mb-3"></h3>
         <button 
-          class="bg-green-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-800 hover:scale-105 transition"
-          @click="ouvrirFormulaire"
-        >
-          Formulaire en ligne
+         class="bg-sapin-bouton text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-900 hover:scale-110 transition"
+        @click="ouvrirFormulaire"
+         >
+         Demander de devis
         </button>
       </div>
-
     </div>
 
     <!-- Ligne du bas -->
-    <div class="mt-10 border-t border-green-700 pt-4 text-center text-sm text-white">
+    <div class="mt-6 mb-6 border-t border-white pt-12 text-center text-sm text-white">
       © {{ new Date().getFullYear() }} Lisa DELBES — Tous droits réservés
     </div>
   </footer>

@@ -12,7 +12,7 @@
       <nav>
         <ul class="flex gap-6 text-sm font-medium">
           <li>
-            <RouterLink to="/apropos" class="hover:text-green-300">A propos</RouterLink>
+            <RouterLink to="/apropos" class="hover:text-sapin-surbrillance">A propos</RouterLink>
           </li>
           <!-- <li>
             <RouterLink to="/services" class="hover:text-green-300">Services</RouterLink>
