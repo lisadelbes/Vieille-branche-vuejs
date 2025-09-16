@@ -14,12 +14,12 @@
           <li>
             <RouterLink to="/apropos" class="hover:text-sapin-surbrillance">A propos</RouterLink>
           </li>
-          <!-- <li>
-            <RouterLink to="/services" class="hover:text-green-300">Services</RouterLink>
+          <li>
+            <RouterLink to="/expertise" class="hover:text-green-300">Mon expertise</RouterLink>
           </li>
           <li>
-            <RouterLink to="/contact" class="hover:text-green-300">Contact</RouterLink>
-          </li> -->
+            <RouterLink to="/formulaire-devis" class="hover:text-green-300">Devis en ligne</RouterLink>
+          </li>
         </ul>
       </nav>
     </div>

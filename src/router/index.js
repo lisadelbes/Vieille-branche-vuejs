@@ -15,6 +15,12 @@ const router = createRouter({
             alias: '/formulaire-devis',
             name: 'formulaire-devis',
             component: () => import('../views/formulaire-devis.vue')
+        },
+          {
+            path: '/expertise',
+            alias: '/monexpertise',
+            name: 'expertise',
+            component: () => import('../views/expertise.vue')
         }
     ]
 });

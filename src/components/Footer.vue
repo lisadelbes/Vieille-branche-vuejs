@@ -33,7 +33,7 @@
          class="bg-sapin-bouton text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-900 hover:scale-110 transition"
         @click="ouvrirFormulaire"
          >
-         Demander de devis
+         Demander un devis
         </button>
       </div>
     </div>
