@@ -1,120 +1,61 @@
 <template>
 
       <!-- Timeline -->
-<!-- <ul class="timeline timeline-vertical">
+<ul class="timeline timeline-vertical bg-white rounded-xl p-8 space-y-10">
+  <!-- Formation -->
   <li>
-    <div class="timeline-start">1984</div>
+    <div class="timeline-start text-gray-600 font-semibold text-lg">2010</div>
     <div class="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        class="h-5 w-5"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      <div class="w-6 h-6 rounded-full bg-amber-400 border-2 border-amber-600 shadow"></div>
     </div>
-    <div class="timeline-end timeline-box">First Macintosh computer</div>
-    <hr />
+    <div class="timeline-end timeline-box bg-amber-50 border border-amber-200 text-gray-800 rounded-xl p-6 shadow-md">
+      <h3 class="font-bold text-xl text-amber-900">CAP Menuiserie</h3>
+      <p class="mt-1 text-gray-600">École des Métiers du Bois – Apprentissage complet du travail du bois et des techniques artisanales.</p>
+    </div>
+    <hr class="border-amber-300"/>
   </li>
+
+  <!-- Expérience -->
   <li>
-    <hr />
-    <div class="timeline-start">1998</div>
+    <hr class="border-amber-300"/>
+    <div class="timeline-start text-gray-600 font-semibold text-lg">2012 - 2016</div>
     <div class="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        class="h-5 w-5"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      <div class="w-6 h-6 rounded-full bg-green-400 border-2 border-green-600 shadow"></div>
     </div>
-    <div class="timeline-end timeline-box">iMac</div>
-    <hr />
+    <div class="timeline-end timeline-box bg-green-50 border border-green-200 text-gray-800 rounded-xl p-6 shadow-md">
+      <h3 class="font-bold text-xl text-green-900">Menuisier – Atelier Bois&Co</h3>
+      <p class="mt-1 text-gray-600">Fabrication et pose de meubles sur mesure, restauration de boiseries anciennes.</p>
+    </div>
+    <hr class="border-amber-300"/>
   </li>
+
+  <!-- Expérience -->
   <li>
-    <hr />
-    <div class="timeline-start">2001</div>
+    <hr class="border-amber-300"/>
+    <div class="timeline-start text-gray-600 font-semibold text-lg">2017 - 2021</div>
     <div class="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        class="h-5 w-5"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      <div class="w-6 h-6 rounded-full bg-blue-400 border-2 border-blue-600 shadow"></div>
     </div>
-    <div class="timeline-end timeline-box">iPod</div>
-    <hr />
+    <div class="timeline-end timeline-box bg-blue-50 border border-blue-200 text-gray-800 rounded-xl p-6 shadow-md">
+      <h3 class="font-bold text-xl text-blue-900">Chef d’équipe – Menuiserie Artisanale</h3>
+      <p class="mt-1 text-gray-600">Encadrement d’une équipe de 4 menuisiers, gestion des chantiers de A à Z.</p>
+    </div>
+    <hr class="border-amber-300"/>
   </li>
+
+  <!-- Actuel -->
   <li>
-    <hr />
-    <div class="timeline-start">2007</div>
+    <hr class="border-amber-300"/>
+    <div class="timeline-start text-gray-600 font-semibold text-lg">2022 - Aujourd’hui</div>
     <div class="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        class="h-5 w-5"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      <div class="w-6 h-6 rounded-full bg-amber-500 border-2 border-amber-700 shadow-lg"></div>
     </div>
-    <div class="timeline-end timeline-box">iPhone</div>
-    <hr />
+    <div class="timeline-end timeline-box bg-amber-100 border border-amber-300 text-gray-900 rounded-xl p-6 shadow-lg">
+      <h3 class="font-bold text-xl text-amber-900">Artisan menuisier indépendant</h3>
+      <p class="mt-1 text-gray-700">Création de meubles personnalisés, agencement intérieur, conseil et conception artisanale.</p>
+    </div>
   </li>
-  <li>
-    <hr />
-    <div class="timeline-start">2015</div>
-    <div class="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        class="h-5 w-5"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
-    </div>
-    <div class="timeline-end timeline-box">Apple Watch</div>
-  </li>
-</ul> -->
-<div class="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
+</ul>
 
 
 </template>
