@@ -18,8 +18,12 @@
             <RouterLink to="/expertise" class="hover:text-green-300">Mon expertise</RouterLink>
           </li>
           <li>
+            <RouterLink to="/pedagogie" class="hover:text-green-300"> Comment ça marche ?</RouterLink>
+          </li>
+          <li>
             <RouterLink to="/formulaire-devis" class="hover:text-green-300">Devis en ligne</RouterLink>
           </li>
+           
         </ul>
       </nav>
     </div>

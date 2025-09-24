@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto px-6 py-10">
-    <div class="bg-gray-200 rounded-2xl shadow-lg flex items-center p-6">
+    <div class="bg-white rounded-2xl shadow-lg flex items-center p-6">
       
       <!-- Image à gauche --> 
       <div class="flex-shrink-0 w-40 h-40 overflow-hidden rounded-xl">
